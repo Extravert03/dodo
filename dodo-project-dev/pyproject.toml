@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "dodo"
+version = "0.1.0"
+description = ""
+authors = ["justNewGithubUser <73386221+justNewGithubUser@users.noreply.github.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pendulum = "^2.1.2"
+peewee = "^3.14.8"
+bs4 = "^0.0.1"
+lxml = "^4.7.1"
+environs = "^9.3.5"
+loguru = "^0.5.3"
+openpyxl = "^3.0.9"
+pydantic = "^1.8.2"
+aiogram = "^2.17.1"
+psycopg2-binary = "^2.9.3"
+redis = "^4.1.0"
+httpx = "0.19.*"
+APScheduler = "^3.9.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.5"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
